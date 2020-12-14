@@ -1,0 +1,69 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.container {
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.container-card {
+    background-color: #F1F5F9;
+    margin: 1.1rem;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    text-align: center;
+
+    max-width: 360px;
+}
+
+.container-card h3 {
+    margin: 0;
+    padding-top: 8px;
+
+}
+
+.container-card h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+.container-card p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-card a {
+    display: block;
+    padding: 4px;
+    
+    text-decoration: none;
+    color: #2563EB;
+    width: 120px;
+    margin: 8px auto;
+
+}
+
+.container-card a:hover {
+    border: 1px solid #2563EB ;
+    color: #2563EB;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+
+
+
+
